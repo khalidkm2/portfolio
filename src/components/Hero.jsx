@@ -13,7 +13,7 @@ const Hero = () => {
                 I`m a
             </span>
             <br/>
-            <TypeAnimation sequence={["Frontend Dev",1000,"Webdesigner",1000,"Consultant",1000]} wrapper='span' speed={50}  />
+            <TypeAnimation sequence={["Frontend Dev",1000,"Webdesigner",1000,"Consultant",1000]} wrapper='span' speed={50} repeat={Infinity}  />
         </h1>
         <p className=' text-white sm:text-lg my-6 lg:text-xl'>My name is Khalid Miya and I have 1yrs+ experience in web development</p>
         <div className=' my-8'>
