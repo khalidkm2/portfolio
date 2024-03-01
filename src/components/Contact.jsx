@@ -25,7 +25,7 @@ const Contact = () => {
                     <div className=' grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4'>
                         <div>
                             <div className=' mt-2.5 '>
-                                <input type='text' name='name' id='' placeholder='Your Name' className=' bg-[#161616] w-full px-4 py-4 text-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600' />
+                                <input type='text' name='name' id='' required placeholder='Your Name' className=' bg-[#161616] w-full px-4 py-4 text-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600' />
 
                           </div>
                         </div>
