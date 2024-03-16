@@ -1,5 +1,6 @@
 import React from "react";
 import netflixImg from "../assets/netflix.png";
+import ecommerceImg from "../assets/ecommerce.png";
 
 const Work = () => {
   return (
@@ -8,8 +9,8 @@ const Work = () => {
         <p className=" text-4xl mb-3 font-bold primary-color ">Work</p>
         <p className=" text-gray-400">Check out some of my recent work</p>
       </div>
-      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <div className=" transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  h-[300px] bg-cover relative flex-col">
+      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className=" border border-gray-600 p-3 transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  h-[300px] bg-cover relative flex-col">
           <img src={netflixImg} alt="" />
           <div className=" opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className=" text-2xl font-bold text-white tracking-wider"></span>
@@ -23,19 +24,20 @@ const Work = () => {
           </div>
           <p className=" text-gray-400 text-sm text-wrap py-5 ">The Netflix GPT project integrates AI-powered search using Redux for streamlined state management. Users log in, search with natural language, enhancing content discovery and user experience.</p>
         </div>
-        {/* <div className=" transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  h-[200px] bg-cover relative">
-          <img src={netflixImg} alt="" />
+        <div className=" border border-gray-600 p-3 transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  h-[300px] bg-cover relative flex-col">
+          <img src={ecommerceImg} alt="" />
           <div className=" opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className=" text-2xl font-bold text-white tracking-wider"></span>
             <div className=" pt-8 text-center">
-              <a href="/">
+              <a href="https://store-app-ten-nu.vercel.app/" target="blank">
                 <button className=" text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Live
                 </button>
               </a>
             </div>
           </div>
-        </div> */}
+          <p className=" text-gray-400 text-sm text-wrap py-5 ">A responsive UI facilitating easy product browsing, cart management, and secure authentication. Product catalog with filtering, sorting, and cart operations. Integration with backend API ensures real-time product data retrieval.</p>
+        </div>
       </div>
     </div>
   );

@@ -6,11 +6,11 @@ const About = () => {
     <div className=' md:grid md:grid-cols-2 sm:py-16'>
     <div className=' mt-4 md:mt-0 text-left flex'>
     <div className=' my-auto mx-6'>
-    <h2 className=' text-4xl font-bold mb-4 primary-color '>
+    <h2 className=' text-4xl font-bold mb-4 '>
 About me
     </h2>
     <p className=' text-base lg:text-lg'>
-    Hello! I’m a front-end developer . My journey in web development began with a keen interest in web design and evolved into a deep passion for creating intuitive user interfaces.
+    Hello! I’m a front-end developer with over a year of experience crafting engaging digital experiences. My journey in web development began with a keen interest in web design and evolved into a deep passion for creating intuitive user interfaces.
 Excited about the future of web development, I look forward to collaborating on projects that push boundaries and deliver impactful digital experiences. If you’re looking for a dedicated front-end developer, let’s get together and make something amazing!
     </p>
 
