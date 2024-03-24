@@ -1,15 +1,23 @@
 import React from "react";
 import netflixImg from "../assets/netflix.png";
 import ecommerceImg from "../assets/ecommerce.png";
+import { useInView } from "react-intersection-observer";
 
 const Work = () => {
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+
   return (
-    <div id="work" className=" max-w-[1200px] mx-auto p-5 my-24">
+    <div ref={ref} id="work" className={`transition-all ease-in duration-700 ${inView ? 'animate-slideInUp' : ''} max-w-[1200px] mx-auto p-5 my-24"`}>
       <div className=" pb-8">
         <p className=" text-4xl mb-3 font-bold primary-color ">Work</p>
         <p className=" text-gray-400">Check out some of my recent work</p>
       </div>
-      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5">
+      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div className=" border border-gray-600 p-3 transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  h-[300px] bg-cover relative flex-col">
           <img src={netflixImg} alt="" />
           <div className=" opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">

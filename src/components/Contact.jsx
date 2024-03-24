@@ -1,16 +1,20 @@
 import React, { useRef } from 'react'
 import  { useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 
 const Contact = () => {
 
-
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+      });
 
   const email = useRef("");
 
 
   return (
-    <div className=' max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='contact'>
+    <div id='contact' ref={ref} className={`transition-all ease-in duration-700 ${inView ? 'animate-slideInUp' : ''} max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='contact`}>
 
     <div className=' text-center'>
         <h2 className=' text-4xl font-bold leading-tight primary-color'>Contact Me</h2>

@@ -1,8 +1,15 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer';
+
 
 const About = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
-    <div className=' text-white max-w-[1200px] mx-auto my-24' id='about'>
+    <div  id='about'  ref={ref} className={`text-white max-w-[1200px] mx-auto my-24 transition-all ease-in duration-700 ${inView ? 'animate-slideInUp' : ''}`}>
     <div className=' md:grid md:grid-cols-2 sm:py-16'>
     <div className=' mt-4 md:mt-0 text-left flex'>
     <div className=' my-auto mx-6'>
