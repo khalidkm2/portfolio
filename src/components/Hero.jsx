@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { useInView } from 'react-intersection-observer';
-import myCv from '../assets/myResume.pdf'
+import myCv from '../assets/Cv.pdf'
 
 const Hero = () => {
     const { ref, inView } = useInView({
@@ -23,7 +23,7 @@ const Hero = () => {
         </h1>
         <p className=' text-white sm:text-lg my-6 lg:text-xl'>My name is Khalid Miya and I have 1yrs+ experience in web development</p>
         <div className=' my-8'>
-            <a href={myCv} download={"myResume.pdf"} className=' px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
+            <a href={myCv} download={"Cv.pdf"} className=' px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
             <a href='#contact' className=' px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>Contact</a>
         </div>
 
