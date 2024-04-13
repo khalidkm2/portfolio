@@ -23,7 +23,7 @@ const Work = () => {
           <div className=" opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className=" text-2xl font-bold text-white tracking-wider"></span>
             <div className=" pt-8 text-center">
-              <a href="https://netflix-gpt-flax-two.vercel.app/" target="blank">
+              <a href="https://strong-empanada-740126.netlify.app/" target="blank">
                 <button className=" text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Live
                 </button>
