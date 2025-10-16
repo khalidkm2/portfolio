@@ -20,13 +20,13 @@ const Hero = () => {
                 I`m a
             </span>
             <br/>
-            <TypeAnimation sequence={["Frontend Dev",1000,"Web dev",1000,"Consultant",1000,"JS Developer",1000]} wrapper='span' speed={50} repeat={Infinity}   />
+            <TypeAnimation sequence={["Frontend Dev",1000,"Backend Dev",1000,"JS Developer",1000]} wrapper='span' speed={50} repeat={Infinity}   />
         </h1>
-        <p className=' text-white sm:text-lg my-6 lg:text-xl'>My name is Khalid Miya and I have 1yrs+ experience in web development</p>
-        <div className=' my-8'>
+        {/* <p className=' text-white sm:text-lg my-6 lg:text-xl'>My name is Khalid Miya and I have 1yrs+ experience in web development</p> */}
+        {/* <div className=' my-8'>
             <a href={myCv} download={"Cv.pdf"} className=' px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
             <a href='#contact' className=' px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>Contact</a>
-        </div>
+        </div> */}
 
 
         </div>

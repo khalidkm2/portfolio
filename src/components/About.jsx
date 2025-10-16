@@ -17,8 +17,7 @@ const About = () => {
 About me
     </h2>
     <p className=' text-base lg:text-lg'>
-    Hello! I’m a front-end developer with over a year of experience crafting engaging digital experiences. My journey in web development began with a keen interest in web design and evolved into a deep passion for creating intuitive user interfaces.
-Excited about the future of web development, I look forward to collaborating on projects that push boundaries and deliver impactful digital experiences. If you’re looking for a dedicated front-end developer, let’s get together and make something amazing!
+    Hey, I’m a web developer who loves building clean, responsive, and functional websites. I work across frontend and backend, always exploring new tools and ideas to make things better and faster. I enjoy experimenting, solving problems, and turning ideas into real, working experiences that feel good to use.
     </p>
 
     </div>

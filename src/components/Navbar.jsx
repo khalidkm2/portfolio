@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className=" p-5">
-          <a href="#work">Work</a>
+          <a href="#work">Projects</a>
         </li>
         <li className=" p-5">
           <a href="#contact">Contact</a>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li className=" p-2">
-            <a href="#work" className=" scroll-smooth">Work</a>
+            <a href="#projects" className=" scroll-smooth">Projects</a>
           </li>
          
 
